@@ -40,7 +40,19 @@
 .read-the-docs {
   color: #888;
 }
-.card-title{
-  font-size: 30px;
-  background-color:aquamarine;
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.box {
+  background-color: white;
+  border: 2px solid #000;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
 }

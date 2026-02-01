@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from './Welcome' 
 
 function App() {
   return (
-    <>
-      <div className='card-title'>
-         <Welcome name = " Thái Phạm Hương Giang"/>
-         <p>Lớp:26.SP.IT3</p>
-         <p>Sở thích: Ngủ, nấu ăn</p>
-      </div>
-    </>
+    <div className="box">
+      <Welcome name="Hương Giang" />
+      <hr /> {}
+      <p><b>Lớp:</b> 26.SP.IT3</p>
+      <p><b>Sở thích:</b> Ngủ, nấu ăn</p>
+    </div>
   )
 }
 
