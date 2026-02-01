@@ -1,6 +1,5 @@
 .container-hocsinh {
   display: flex;       
-  flex-direction: row; 
   gap: 20px;           
   justify-content: center; 
   padding: 20px;
