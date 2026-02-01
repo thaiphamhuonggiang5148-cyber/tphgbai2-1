@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <div className='card-title'>
-         <Welcome name = "26SPIT3"/>
-         <p>Họ tên: Thái Phạm Hương Giang</p>
+         <Welcome name = " Thái Phạm Hương Giang"/>
+         <p>Lớp:26.SP.IT3</p>
          <p>Sở thích: Ngủ, nấu ăn</p>
       </div>
     </>
