@@ -1,13 +1,15 @@
 import './App.css'
-import Welcome from './Welcome' 
+import Student from './Student'
 
 function App() {
   return (
-    <div className="box">
-      <Welcome name="Hương Giang" />
-      <hr /> {}
-      <p><b>Lớp:</b> 26.SP.IT3</p>
-      <p><b>Sở thích:</b> Ngủ, nấu ăn</p>
+    <div className="container-hocsinh">
+      <Student  name="Thái Phạm Hương Giang" age={17} className="26.SP.IT3" 
+      />
+      <Student name="Lê Thành Được" age={20} className="24CDTKW01" 
+      />
+      <Student name="Trịnh Thái Nguyên" age={19} className="26.SP.IT3" 
+      />
     </div>
   )
 }
