@@ -1,9 +1,33 @@
-.container-hocsinh {
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
   display: flex;
-  flex-direction: column; 
+  justify-content: center; 
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+.main-title {
+  text-align: center;
+  color: #1a2a3a;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  width: 100%;
+}
+
+.container-hocsinh {
+  display: grid;
+  grid-template-columns: 1fr; 
   gap: 20px;
-  align-items: stretch; /* Đổi từ center thành stretch để tụi nó giãn bằng nhau */
-  padding: 20px;
-  width: 350px; /* Cho cái container một độ rộng cố định */
-  margin: 0 auto; /* Đưa cả cụm ra giữa màn hình */
+  width: 100%;
+  max-width: 380px; 
 }

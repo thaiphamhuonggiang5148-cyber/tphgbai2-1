@@ -1,11 +1,7 @@
+import './Student.css';
 function Student(props) {
   return (
-    <div style={{
-      border: "1px solid #fdd005ff",
-      padding: "10px",
-      marginBottom: "10px",
-      borderRadius: "8px"
-    }}>
+    <div className="student-card">
       <h3>Học sinh: {props.name}</h3>
       <p>Tuổi: {props.age}</p>
       <p>Lớp: {props.className}</p>
